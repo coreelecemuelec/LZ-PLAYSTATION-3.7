@@ -5,9 +5,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
      <formatVersion>7</formatVersion>
      <view name="system">
           <video name="system_video" extra="true">
-               <size>0.212 0.25</size>
-               <size ifSubset="aspect-ratio:4-3|5-4">0.22 0.22</size>
-               <size ifSubset="aspect-ratio:16-9|16-10">0.212 0.25</size>
+               <size>0.610 0.390</size>
                <effect>none</effect>
                <roundCorners>0</roundCorners>
                <showSnapshotNoVideo>false</showSnapshotNoVideo>
@@ -15,8 +13,8 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <default>./../../_theme_inc/videos/no-video.mp4</default>
                <path ifSubset="video-system-random:enable-random|enable-ifnospot">{random}</path>
                <path ifSubset="video-system-random:disable-random|enable-ifnospot">./../../_theme_inc/videos/${system.theme}.mp4</path>
-               <delay>0.5</delay>
-               <zIndex>70</zIndex>
+               <delay>0.10</delay>
+               <zIndex>30</zIndex>
                <audio ifSubset="video-system-audio:disable-audio">false</audio>
           </video>
 
@@ -27,16 +25,14 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
           <video name="system_video" extra="true" ifSubset="carousel:big" >
-               <pos>0.02 0.612</pos>
+               <pos>0.389 0.517</pos>
           </video>
 
 
           <text name="system_description" extra="true" ifSubset="carousel:big">
-               <size>0.54 0</size>
+               <size>0.540 0</size>
                <fontSize>0.023</fontSize>
-               <fontSize ifSubset="aspect-ratio:4-3|5-4">0.02</fontSize>
-               <fontSize ifSubset="aspect-ratio:16-10">0.022</fontSize>
-               <pos>0.26 0.608</pos>
+               <pos>0.403 0.610</pos>
           </text>
 
 
@@ -49,7 +45,7 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
                <size>0.54 0</size>
                <pos>0.26 0.512</pos>
                <fontSize>0.026</fontSize>
-               <fontSize ifSubset="aspect-ratio:4-3|5-4">0.023</fontSize>
+               
 
           </text>
 
@@ -62,7 +58,6 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
           <text name="system_description" extra="true" ifSubset="carousel:small">               
                <size>0.54 0</size>
                <fontSize>0.026</fontSize>
-               <fontSize ifSubset="aspect-ratio:4-3|5-4">0.024</fontSize>
                <pos>0.26 0.46</pos>
           </text>
 
